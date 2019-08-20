@@ -38,6 +38,13 @@ body {
 #spin-container {
  background-color: rgba(22, 200, 200, .5);
 }
+#spin-container::after{
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  font-size: 13.5px;
+  content: "いつまで生きればいいですか？病み期";
+}
 #drag-container img, #drag-container video {
  -webkit-transform-style: preserve-3d;
          transform-style: preserve-3d;
